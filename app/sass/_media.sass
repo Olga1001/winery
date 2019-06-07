@@ -1,0 +1,274 @@
+@import "vars"
+//@import "fonts"
+//@import "main"
+
+//@media (min-width: 1101px) and (max-width: 1560px)
+@media only screen and (max-width : 1440px)
+  .header
+    &-menu
+      position: absolute
+      left: 0
+      top: 413px
+      width: 100%
+      margin-right: 0
+      background: #ffffff
+      display: block
+      z-index: 8
+      text-align: right
+      padding: 20px 10px
+      opacity: 0
+      pointer-events: none
+      transform: translateY(-100px)
+      transition: all 0.3s ease
+      &.active
+        opacity: 1
+        pointer-events: auto
+        transform: translateY(0px)
+
+    &-flex
+      position: initial
+    &-btn-menu
+      display: block
+    &-market
+      position: initial
+      transform: translateY(0)
+      display: inline-flex
+    &-link
+      padding: 15px 0
+    &-down .header-flex
+      align-items: center
+  .visitor-second-link
+    font-size: 2.1vw
+  .visitor-second-list
+    font-size: 2.5vw
+  .visitor-second-img
+    width: 111px
+    height: auto
+@media only screen and (max-width : 1200px)
+  .footer-newsletter, .footer-menu
+    width: 50%
+    margin-bottom: 30px
+  .footer-menu:last-child
+    margin-left: 0
+  .footer-btn
+    margin-right: 10px
+  .market-first-block:last-child
+    width: 5%
+  .market-first-block
+    width: 20%
+  .market-first-block:nth-child(2)
+    width: 75%
+  .visitor-third-title
+    font-size: 8vw
+@media only screen and (max-width : 1024px)
+  .home-main
+    flex-direction: column
+  .home-block
+    width: 100%
+    height: 33.33%
+  .home-center-logo
+    max-height: 41.4vw
+    max-width: 41.4vw
+  .market-first-winery
+    right: 50%
+    transform: translateX(50%)
+  .market-first-item
+    font-size: 3.7vw
+    display: flex
+    flex-direction: column
+    width: 50%
+  .market-first-span
+    font-size: 3vw
+  .market-first-item:last-child
+    font-size: 3.8vw
+    padding-right: 30px
+  .market-first-span:before
+    height: 0.7vw
+  .market-first-content, .market-description, .market-first-price
+    padding-right: 30px
+  .market-third-product
+    width: 50%
+    padding: 40px 0
+  .market-third-img
+    height: 40vw
+@media only screen and (max-width : 767px)
+  .footer-menu, .footer-newsletter
+    width: 100%
+  .header-social-img
+    height: 23px
+  .header-logo
+    width: 100px
+  .header-btn
+    font-size: 12px
+    text-align: center
+  .header-phone
+    font-size: 18px
+    padding: 14px 0
+    max-width: 185px
+  .contact-label
+    text-align: right
+  .contact-checkbox:after
+    top: 0
+    right: 5px
+  .contact-item
+    font-size: 16px
+    padding-right: 40px
+  .header-menu
+    top: 267px
+  .blog-second-item
+    width: calc(50% - 10px)
+    height: 40vw
+    margin: 1.55vw 20px 1.55vw 0
+  .blog-second-item:nth-child(3n)
+    margin-right: 20px
+  .blog-second-item:nth-child(2n)
+    margin-right: 0
+  .blog-second
+    padding: 60px 0 40px
+  .blog-second-date, .blog-second-title, .blog-second-btn, .blog-second-text
+    font-size: 1.5vw
+  .blog-second-btn
+    border: 1px solid #9ab72c
+    padding: 8px 4.6vw 9px
+    margin-top: 4vw
+  .blog-first
+    height: 420px
+  .market-second-form
+    .market-second-flex
+      display: block
+  .market-second-btn
+    display: block
+    width: 100%
+    margin: 10px 0
+  .visitor-fourth-text
+    font-size: 16px
+  .market-second-input
+    max-width: 100%
+    margin: 10px 0
+  .market-second-flex
+    font-size: 18px
+  .market-second-text, .visitor-fourth-title
+    font-size: 21px
+  .market-first-block, .market-first-block:nth-child(2), .market-first-block:last-child
+    width: 100%
+  .market-first
+    flex-direction: column
+  .market-first-block, .market-first-winery
+    position: initial
+    transform: translateX(0)
+  .market-first-winery, .market-first-block:first-child
+    height: 320px
+  .market-first-block
+    display: block
+    height: auto
+  .market-first, .market-first-flex
+    padding-top: 40px
+  .market-first-block:last-child
+    height: 400px
+  .market-second-link:first-child
+    margin: 0 10px 0 0
+  .visitor-first
+    height: 370px
+  .visitor-first-text
+    font-size: 2vw
+    margin-bottom: 0
+  .visitor-second-img
+    width: 45px
+  .visitor-first-img, .visitor-first-content
+    width: 50%
+  .visitor-third
+    height: 77vw
+  .visitor-fourth-flex:last-child
+    margin-bottom: 0
+  .visitor-fifth-title
+    padding-bottom: 40px
+  .visitor-fourth-img
+    margin-top: 40px
+  .visitor-second
+    padding: 20px 0
+@media only screen and (max-width : 480px)
+  .contact-text
+    font-size: 14px
+    margin: 25px 0 35px
+  .about-first-block, .market-third, .visitor-fourth
+    padding: 40px 0
+  .contact-btn
+    padding: 7px 0 9px
+    text-align: center
+    width: 100%
+    font-size: 21px
+  .contact-title
+    font-size: 32px
+  .visitor-fifth-title
+    font-size: 32px
+  .contact-comments
+    height: 150px
+  .footer-top
+    padding: 60px 0 30px
+  .blog-second-item
+    width: 100%
+    margin: 20px 0
+    height: 350px
+  .blog-second-item:nth-child(3n)
+    margin-right: 0
+  .blog-second-date, .blog-second-title, .blog-second-btn
+    font-size: 14px
+  .blog-second-date
+    margin-bottom: 20px
+  .blog-second-uper
+    margin: 25px 0 20px
+  .footer-link
+    font-size: 13px
+  .blog-second-text
+    font-size: 12px
+  .blog-second-btn
+    padding: 8px 65px 9px
+    margin-top: 30px
+  .blog-first-text, .crumb, .about-first-title, .footer-list
+    font-size: 21px
+  .about-first-text
+    font-size: 16px
+  .market-third-product
+    width: 100%
+  .market-third-img
+    height: 60vw
+  .market-first-item, .market-first-item:last-child
+    font-size: 19px
+  .market-first-span, .market-second-text
+    font-size: 16px
+  .market-first-text, .market-second-item, .visitor-first-text, .visitor-fourth-text, .visitor-second-list, .visitor-second-link
+    font-size: 14px
+  .market-first-content
+    padding: 30px 30px 30px 10px
+  .market-price
+    font-size: 38px
+  .market-second-btn, .market-third-title, .market-second-title
+    font-size: 28px
+  .market-second-input
+    height: 40px
+  .market-second-checkbox:after
+    top: -2px
+  .visitor-first
+    height: auto
+    flex-direction: column
+  .visitor-first-content, .visitor-first-img
+    width: 100%
+  .visitor-first-content
+    padding: 20px 10px
+  .visitor-first-img
+    max-height: 480px
+    height: 100%
+    width: 100%
+  .visitor-fourth-title
+    padding: 0 10px
+  .visitor-fourth-text
+    padding: 0 10px
+  .visitor-second-img
+    width: 20px
+  .scroll
+    max-width: 230px
+    padding-right: 10px
+  .visitor-second-offer
+    padding: 20px 10px
+  .visitor-second-list
+    line-height: 1

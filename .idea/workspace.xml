@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e6e449a7-7187-4ea5-a8fb-097b7fcf3ecd" name="Default Changelist" comment="commit 1">
+      <change afterPath="$PROJECT_DIR$/.bowerrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/david.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/phone-table.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/header-left.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/pages/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/pages/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/pages/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/pages/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/pages/market.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/pages/visitor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/css/component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/css/fonts/slick.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/css/fonts/slick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/css/fonts/slick.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/css/fonts/slick.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/css/libs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/css/libs.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/opensanshebrew-bold/opensanshebrew-bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/opensanshebrew-bold/opensanshebrew-bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/opensanshebrew-bold/opensanshebrew-bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/opensanshebrew-extrabold/opensanshebrew-extrabold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/opensanshebrew-extrabold/opensanshebrew-extrabold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/opensanshebrew-extrabold/opensanshebrew-extrabold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/opensanshebrew-light/opensanshebrew-light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/opensanshebrew-light/opensanshebrew-light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/opensanshebrew-light/opensanshebrew-light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/opensanshebrew-regular/opensanshebrew-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/opensanshebrew-regular/opensanshebrew-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/opensanshebrew-regular/opensanshebrew-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/15818243_l.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/Adir060617N_ 085.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/FB_IMG_1542184866475.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/arrow-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/blog.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/blog1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/blog2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/blog3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/bung.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/facebook.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/foto1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/google.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/header-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/header-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/instagram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/market1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/nature.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/visitor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/winery.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/winery1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/winery2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/winery3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/winery4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/winery5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/youtube.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/דף כניסה.psd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/libs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/AUTHORS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/dist/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/dist/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/dist/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/dist/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/dist/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/dist/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/dist/jquery.slim.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/external/sizzle/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/external/sizzle/dist/sizzle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/external/sizzle/dist/sizzle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/external/sizzle/dist/sizzle.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/ajax/jsonp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/ajax/load.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/ajax/parseXML.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/ajax/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/ajax/var/location.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/ajax/var/nonce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/ajax/var/rquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/ajax/xhr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/attributes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/attributes/attr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/attributes/classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/attributes/prop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/attributes/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/attributes/val.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/callbacks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/core/DOMEval.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/core/access.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/core/camelCase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/core/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/core/nodeName.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/core/parseHTML.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/core/ready-no-deferred.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/core/ready.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/core/readyException.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/core/stripAndCollapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/core/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/core/toType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/core/var/rsingleTag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/css/addGetHookIf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/css/adjustCSS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/css/curCSS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/css/hiddenVisibleSelectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/css/showHide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/css/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/css/var/cssExpand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/css/var/getStyles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/css/var/isHiddenWithinTree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/css/var/rboxStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/css/var/rnumnonpx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/css/var/swap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/data/Data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/data/var/acceptData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/data/var/dataPriv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/data/var/dataUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/deferred.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/deferred/exceptionHook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/deprecated.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/dimensions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/effects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/effects/Tween.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/effects/animatedSelector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/event/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/event/alias.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/event/focusin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/event/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/event/trigger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/exports/amd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/exports/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/manipulation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/manipulation/_evalUrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/manipulation/buildFragment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/manipulation/getAll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/manipulation/setGlobalEval.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/manipulation/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/manipulation/var/rcheckableType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/manipulation/var/rscriptType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/manipulation/var/rtagName.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/manipulation/wrapMap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/offset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/queue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/queue/delay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/selector-native.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/selector-sizzle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/selector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/serialize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/traversing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/traversing/findFilter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/traversing/var/dir.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/traversing/var/rneedsContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/traversing/var/siblings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/var/ObjectFunctionString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/var/arr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/var/class2type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/var/concat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/var/document.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/var/documentElement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/var/fnToString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/var/getProto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/var/hasOwn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/var/indexOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/var/isFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/var/isWindow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/var/pnum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/var/push.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/var/rcssNum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/var/rnothtmlwhite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/var/slice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/var/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/var/toString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/src/wrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/slick-carousel/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/slick-carousel/CONTRIBUTING.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/slick-carousel/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/slick-carousel/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/slick-carousel/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/slick-carousel/README.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/slick-carousel/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/slick-carousel/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/slick-carousel/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/slick-carousel/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/slick-carousel/slick.jquery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/slick-carousel/slick/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/slick-carousel/slick/config.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/slick-carousel/slick/fonts/slick.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/slick-carousel/slick/fonts/slick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/slick-carousel/slick/fonts/slick.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/slick-carousel/slick/fonts/slick.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/slick-carousel/slick/slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/slick-carousel/slick/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/slick-carousel/slick/slick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/slick-carousel/slick/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/market.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_fonts.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_media.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_mixins/_font-face.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_vars.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/libs.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/visitor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1360">
+              <caret line="80" column="2" selection-start-line="80" selection-start-column="2" selection-end-line="83" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/components/pages/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3842">
+              <caret line="226" column="60" selection-start-line="226" selection-start-column="60" selection-end-line="226" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/pages/blog.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="166" column="26" selection-start-line="166" selection-start-column="26" selection-end-line="166" selection-end-column="26" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#3;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#4;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#5;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#6;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#7;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#8;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#8;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#9;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#9;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#10;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#10;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#11;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#11;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>home-first</find>
+      <find>home-two-flex</find>
+      <find>.about</find>
+      <find>place</find>
+      <find>market-first-flex</find>
+      <find>market-first-span</find>
+      <find>-item</find>
+      <find>after</find>
+      <find>market-second-text</find>
+      <find>#9bb82c</find>
+      <find>.header-market</find>
+      <find>checkbox</find>
+      <find>textarea</find>
+      <find>label</find>
+      <find>.header</find>
+      <find>-social</find>
+      <find>.header-btn</find>
+      <find>-phone</find>
+      <find>footer</find>
+      <find>.footer-btn</find>
+      <find>.blo</find>
+      <find>.about-first-block</find>
+      <find>.market-first-block, .market-first-winery</find>
+      <find>.market</find>
+      <find>visitor</find>
+      <find>.visitor-second-img</find>
+      <find>.visitor-second-list</find>
+      <find>.footer-link</find>
+      <find>.blog-second-hover</find>
+      <find>.contact</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>home</replace>
+      <replace>second</replace>
+      <replace>jpg</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/css/libs.css" />
+        <option value="$PROJECT_DIR$/app/blog.html" />
+        <option value="$PROJECT_DIR$/app/home.html" />
+        <option value="$PROJECT_DIR$/app/components/pages/service.html" />
+        <option value="$PROJECT_DIR$/app/img/play-arrow.svg" />
+        <option value="$PROJECT_DIR$/app/components/pages/gallery.html" />
+        <option value="$PROJECT_DIR$/app/components/pages/about-two.html" />
+        <option value="$PROJECT_DIR$/app/contact.html" />
+        <option value="$PROJECT_DIR$/app/gallery.html" />
+        <option value="$PROJECT_DIR$/app/service.html" />
+        <option value="$PROJECT_DIR$/edits/footer.php" />
+        <option value="$PROJECT_DIR$/edits/main.css" />
+        <option value="$PROJECT_DIR$/edits/common.js" />
+        <option value="$PROJECT_DIR$/../jewelry/edits/16.04/main.css" />
+        <option value="$PROJECT_DIR$/../jewelry/edits/17.04/single-product.php" />
+        <option value="$PROJECT_DIR$/../jewelry/edits/17.04/item/archive-product.php" />
+        <option value="$PROJECT_DIR$/../jewelry/edits/17.04/common.js" />
+        <option value="$PROJECT_DIR$/../jewelry/edits/17.04/main.css" />
+        <option value="$PROJECT_DIR$/../jewelry/edits/17.04/archive-product.php" />
+        <option value="$PROJECT_DIR$/../jewelry/edits/18.04/common.js" />
+        <option value="$PROJECT_DIR$/../agent/edits/taxonomy-apartment_cat.php" />
+        <option value="$PROJECT_DIR$/../agent/edits/main.css" />
+        <option value="$PROJECT_DIR$/main.css" />
+        <option value="$PROJECT_DIR$/../jewelry/edits/18.04/single.php" />
+        <option value="$PROJECT_DIR$/../jewelry/edits/18.04/main.css" />
+        <option value="$PROJECT_DIR$/../eco-house/edits/main.css" />
+        <option value="$PROJECT_DIR$/../eco-house/edits/tpl-page-projects.php" />
+        <option value="$PROJECT_DIR$/../eco-house/edits/single.php" />
+        <option value="$PROJECT_DIR$/app/sass/libs.sass" />
+        <option value="$PROJECT_DIR$/app/sass/_fonts.sass" />
+        <option value="$PROJECT_DIR$/app/components/footer-down.html" />
+        <option value="$PROJECT_DIR$/app/components/footer-top.html" />
+        <option value="$PROJECT_DIR$/app/components/pages/home.html" />
+        <option value="$PROJECT_DIR$/app/components/pages/about.html" />
+        <option value="$PROJECT_DIR$/app/components/footer.html" />
+        <option value="$PROJECT_DIR$/app/components/header.html" />
+        <option value="$PROJECT_DIR$/app/components/header-left.html" />
+        <option value="$PROJECT_DIR$/app/components/pages/index.html" />
+        <option value="$PROJECT_DIR$/app/sass/_media.sass" />
+        <option value="$PROJECT_DIR$/app/components/pages/blog.html" />
+        <option value="$PROJECT_DIR$/app/js/common.js" />
+        <option value="$PROJECT_DIR$/app/sass/main.sass" />
+        <option value="$PROJECT_DIR$/app/components/pages/contact.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="230" />
+    <option name="y" value="37" />
+    <option name="width" value="1219" />
+    <option name="height" value="968" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="winery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="winery" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\project\winery\app\components\pages" />
+      <recent name="C:\Users\admin\Desktop\project\winery\app\components" />
+      <recent name="C:\Users\admin\Desktop\project\caspi Gal-Yam\app\components" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6e449a7-7187-4ea5-a8fb-097b7fcf3ecd" name="Default Changelist" comment="" />
+      <created>1552904775099</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552904775099</updated>
+      <workItem from="1552904777177" duration="1803000" />
+      <workItem from="1552906604967" duration="322000" />
+      <workItem from="1552908050027" duration="32000" />
+      <workItem from="1552976743922" duration="18077000" />
+      <workItem from="1553600996692" duration="818000" />
+      <workItem from="1553698306269" duration="4330000" />
+      <workItem from="1553758116103" duration="11339000" />
+      <workItem from="1553771199909" duration="8282000" />
+      <workItem from="1554100608966" duration="7384000" />
+      <workItem from="1554295626153" duration="4624000" />
+      <workItem from="1555310080747" duration="22121000" />
+      <workItem from="1555396093677" duration="9150000" />
+      <workItem from="1555492133008" duration="18522000" />
+      <workItem from="1555568535486" duration="1832000" />
+      <workItem from="1555570390641" duration="1804000" />
+      <workItem from="1555572694085" duration="21856000" />
+      <workItem from="1555654677817" duration="5000" />
+      <workItem from="1555654695596" duration="240000" />
+      <workItem from="1555655593046" duration="28255000" />
+      <workItem from="1555913435252" duration="1630000" />
+      <workItem from="1555915552059" duration="27397000" />
+      <workItem from="1555999989231" duration="19402000" />
+      <workItem from="1559907921463" duration="320000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="225571000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="230" y="37" width="1219" height="968" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30313295" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Gulp" order="3" side_tool="true" />
+      <window_info id="npm" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298731" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33892214" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Gulp" order="0" side_tool="true" />
+      <window_info id="npm" order="1" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.27366745" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298731" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3298731" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../agent/edits/single.php" />
+    <entry file="file://$PROJECT_DIR$/../agent/edits/single-apartment.php" />
+    <entry file="file://$PROJECT_DIR$/../agent/edits/single-infrastructure.php" />
+    <entry file="file://$PROJECT_DIR$/../agent/edits/tpl-page-about.php" />
+    <entry file="file://$PROJECT_DIR$/../agent/edits/tpl-page-contacts.php" />
+    <entry file="file://$PROJECT_DIR$/../agent/edits/tpl-page-plan.php" />
+    <entry file="file://$PROJECT_DIR$/../agent/edits/tpl-page-main.php" />
+    <entry file="file://$PROJECT_DIR$/../agent/edits/tpl-page-infrastructure.php" />
+    <entry file="file://$PROJECT_DIR$/../agent/edits/tpl-page-demand.php" />
+    <entry file="file://$PROJECT_DIR$/../agent/edits/main.css" />
+    <entry file="file://$PROJECT_DIR$/../agent/edits/taxonomy-apartment_cat.php" />
+    <entry file="file://$PROJECT_DIR$/main.css" />
+    <entry file="file://$PROJECT_DIR$/../jewelry/edits/18.04/my-account.php" />
+    <entry file="file://$PROJECT_DIR$/../jewelry/edits/18.04/main.css" />
+    <entry file="file://$PROJECT_DIR$/../jewelry/edits/18.04/single.php" />
+    <entry file="file://$PROJECT_DIR$/../eco-house/edits/tpl-page-project.php__________" />
+    <entry file="file://$PROJECT_DIR$/../eco-house/edits/tpl-page-stroy-category.php" />
+    <entry file="file://$PROJECT_DIR$/../eco-house/edits/tpl-page-main.php" />
+    <entry file="file://$PROJECT_DIR$/../eco-house/edits/taxonomy-project_cat.php" />
+    <entry file="file://$PROJECT_DIR$/../eco-house/edits/tpl-page-projects.php" />
+    <entry file="file://$PROJECT_DIR$/../eco-house/edits/main.css" />
+    <entry file="file://$PROJECT_DIR$/../eco-house/edits/single-proyekty_domov.php" />
+    <entry file="file://$PROJECT_DIR$/../eco-house/edits/single.php" />
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-664" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/libs.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="42" lean-forward="true" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../david/app/sass/_fonts.sass" />
+    <entry file="file://$PROJECT_DIR$/app/sass/_fonts.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/footer-down.html" />
+    <entry file="file://$PROJECT_DIR$/app/components/footer-top.html" />
+    <entry file="file://$PROJECT_DIR$/../blog Gal-Yam/app/components/pages/index.html" />
+    <entry file="file://$PROJECT_DIR$/app/components/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="32" column="74" selection-start-line="32" selection-start-column="74" selection-end-line="32" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jewelry/app/sass/main.sass" />
+    <entry file="file://$PROJECT_DIR$/app/components/pages/market.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/pages/home.html" />
+    <entry file="file://$PROJECT_DIR$/app/components/pages/visitor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="66" column="12" lean-forward="true" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/pages/about.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../david/app/sass/main.sass" />
+    <entry file="file://$PROJECT_DIR$/../david/app/components/header.html" />
+    <entry file="file://$PROJECT_DIR$/app/components/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/header-left.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../caspi Gal-Yam/app/sass/main.sass" />
+    <entry file="file://$PROJECT_DIR$/../blog Gal-Yam/app/sass/main.sass" />
+    <entry file="file://$PROJECT_DIR$/app/components/pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jewelry/app/js/common.js" />
+    <entry file="file://$PROJECT_DIR$/../caspi Gal-Yam/app/js/common.js" />
+    <entry file="file://$PROJECT_DIR$/../blog Gal-Yam/app/js/common.js" />
+    <entry file="file://$PROJECT_DIR$/app/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" column="2" selection-start-line="80" selection-start-column="2" selection-end-line="83" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3842">
+          <caret line="226" column="60" selection-start-line="226" selection-start-column="60" selection-end-line="226" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/pages/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="166" column="26" selection-start-line="166" selection-start-column="26" selection-end-line="166" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#6;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#7;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#8;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#8;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#9;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#9;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#10;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#10;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#11;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#11;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/pages/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

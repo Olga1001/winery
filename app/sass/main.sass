@@ -1,0 +1,1095 @@
+@import "fonts"
+@import "vars"
+
+*
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  line-height: 1
+  margin: 0
+  padding: 0
+
+  &:before, &:after
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+
+*::-webkit-input-placeholder
+  color: #424244
+  font-family: "opensanshebrew-light", sans-serif
+  font-size: 20px
+  font-weight: 300
+  line-height: 36px
+
+*:-moz-placeholder
+  color: #424244
+  font-family: "opensanshebrew-light", sans-serif
+  font-size: 20px
+  font-weight: 300
+  line-height: 36px
+
+*::-moz-placeholder
+  color: #424244
+  font-family: "opensanshebrew-light", sans-serif
+  font-size: 20px
+  font-weight: 300
+  line-height: 36px
+
+*:-ms-input-placeholder
+  color: #424244
+  font-family: "opensanshebrew-light", sans-serif
+  font-size: 20px
+  font-weight: 300
+  line-height: 36px
+
+input[type=text]::-ms-clear
+  display: none
+  width: 0
+  height: 0
+
+input[type=text]::-ms-reveal
+  display: none
+  width: 0
+  height: 0
+
+::-webkit-scrollbar
+  width: 10px
+  height: 3px
+
+::-webkit-scrollbar-thumb
+  background: #ccc
+
+input::-webkit-search-decoration, input::-webkit-search-cancel-button, input::-webkit-search-results-button, input::-webkit-search-results-decoration
+  display: none
+  -webkit-appearance: none
+
+input::-webkit-search-decoration, input::-webkit-search-cancel-button, input::-webkit-search-results-button, input::-webkit-search-results-decoration
+  display: none
+  -webkit-appearance: none
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+  color: #d4dae1
+
+body input:required:valid,
+body textarea:required:valid
+  font-family: "LatoBold", sans-serif
+  text-transform: capitalize
+
+textarea
+  color: #424244
+  font-family: "opensanshebrew-light", sans-serif
+  font-size: 20px
+  font-weight: 300
+  text-align: right
+  &::-webkit-input-placeholder
+    color: #424244
+    font-family: "opensanshebrew-light", sans-serif
+    font-size: 20px
+    font-weight: 300
+    line-height: 1
+
+  &:-moz-placeholder
+    color: #424244
+    font-family: "opensanshebrew-light", sans-serif
+    font-size: 20px
+    font-weight: 300
+    line-height: 1
+
+  &::-moz-placeholder
+    color: #424244
+    font-family: "opensanshebrew-light", sans-serif
+    font-size: 20px
+    font-weight: 300
+    line-height: 1
+
+  &:-ms-input-placeholder
+    color: #424244
+    font-family: "opensanshebrew-light", sans-serif
+    font-size: 20px
+    font-weight: 300
+    line-height: 1
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+  margin: 0
+  padding: 0
+  border: 0
+  font-size: 100%
+  font: inherit
+  vertical-align: baseline
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+  display: block
+
+ol, ul
+  list-style: none
+a
+  text-decoration: none
+  line-height: 1
+  display: block
+body
+  width: 100%
+input
+  background-color: #ffffff
+  color: #424244
+  font-family: "opensanshebrew-light", sans-serif
+  font-size: 20px
+  font-weight: 300
+  line-height: 36px
+  text-align: right
+  padding: 0 10px 0
+  outline: none
+  border: none
+button
+  background: none
+  border: none
+  outline: none
+p
+  display: block
+  font-family: "opensanshebrew-light", sans-serif
+  font-size: 23px
+  font-weight: 300
+  letter-spacing: 0.31px
+  text-align: right
+  text-shadow: 0 0 0 rgba(6, 6, 6, 0.73)
+  color: #424244
+.container
+  max-width: 1600px
+  width: 100%
+  margin: 0 auto
+  padding: 0 10px
+.container-two
+  max-width: 1450px
+  margin: 0 auto
+  width: 100%
+  padding: 0 10px
+.header
+  background: url("../img/header.jpg") no-repeat left center / cover
+  padding: 25px 0 0
+  position: relative
+  &-market
+    z-index: 2
+  &-flex
+    display: flex
+    justify-content: space-between
+    position: relative
+  &-social
+    display: flex
+    &-list
+      margin-left: 6px
+    &-img
+      height: 43px
+  &-block
+    max-width: 325px
+    width: 100%
+  &-logo
+    margin: 0 auto 20px
+    display: block
+    width: 217px
+  &-btn
+    background: #000000
+    max-width: 160px
+    width: 100%
+    padding: 6px 0 9px
+    text-align: center
+    text-shadow: 0 0 0 rgba(6, 6, 6, 0.73)
+    color: #ffffff
+    font-family: "opensanshebrew-bold", sans-serif
+    font-size: 24px
+    font-weight: 700
+    &:first-child
+      margin-right: 3px
+    &.active
+      color: #9bb82c
+  &-phone
+    text-shadow: 0 0 0 rgba(6, 6, 6, 0.73)
+    color: #ffffff
+    font-family: "opensanshebrew-bold", sans-serif
+    line-height: 1
+    font-size: 32px
+    max-width: 325px
+    width: 100%
+    background-color: #9bb82c
+    font-weight: 700
+    padding: 7px 0
+    text-align: center
+  &-down
+    height: 46px
+    width: 100%
+    background: rgba(#ffffff, 0.6)
+    margin-top: 5px
+  &-menu
+    display: flex
+    align-items: center
+    justify-content: space-around
+    width: calc(100% - 325px - 20px)
+    margin-right: 20px
+    &-left
+      padding-right: 132px
+      width: auto
+      .header-link
+        margin: 0 22px
+      .header-market
+        color: #424244
+        z-index: 2
+  &-span
+    font-family: "opensanshebrew-light", sans-serif
+    font-weight: 300
+  &-link
+    text-shadow: 0 0 0 rgba(6, 6, 6, 0.73)
+    color: #424244
+    font-family: "opensanshebrew-light", sans-serif
+    font-size: 22px
+    font-weight: 300
+    line-height: 1
+    &.active
+      color: #9bb82c
+    &:hover
+      color: #9bb82c
+  &-market
+    position: absolute
+    right: 0
+    top: 0
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 104px
+    height: 106px
+    color: #9bb82c
+    border-radius: 50%
+    background: #ffffff
+    border: 4px solid rgba(#9bb72b, 0.49)
+    transform: translateY(-25%)
+    text-shadow: 0 0 0 rgba(6, 6, 6, 0.73)
+    font-family: "opensanshebrew-bold", sans-serif
+    font-size: 25px
+    font-weight: 700
+  &-btn-menu
+    cursor: pointer
+    width: 38px
+    height: 38px
+    position: relative
+    -webkit-transition: background-color .5s ease
+    transition: background-color .5s ease
+    display: none
+    background: #000000
+
+  &-btn-menu.btn-active
+    z-index: 2
+    border-radius: 50%
+
+  &-btn-menu.bg-active
+    border-radius: 50%
+    z-index: 3
+
+.header-btn-menu.btn-active .header-line, .header-btn-menu.bg-active .header-line
+  background: #9bb82c
+
+.header-btn-menu.btn-active .header-line_center, .header-btn-menu.bg-active .header-line_center
+  opacity: 0
+
+.header-btn-menu.btn-active .header-line_top, .header-btn-menu.bg-active .header-line_top
+  -webkit-transform: translateY(7px) rotate(225deg)
+  transform: translateY(7px) rotate(225deg)
+
+.header-btn-menu.btn-active .header-line_bottom, .header-btn-menu.bg-active .header-line_bottom
+  -webkit-transform: translateY(-7px) rotate(-225deg)
+  transform: translateY(-9px) rotate(-225deg)
+
+.header-line
+  width: 24px
+  height: 3px
+  display: block
+  background: #9bb82c
+  position: absolute
+  left: calc(50% - 12px)
+  -webkit-transition: all .5s ease
+  transition: all .5s ease
+
+.header-line.header-line_top
+  top: 10px
+
+.header-line.header-line_center
+  top: 47%
+
+.header-line.header-line_bottom
+  bottom: 9px
+
+.home
+  &-main
+    width: 100%
+    height: 100vh
+    display: flex
+  &-block
+    width: 33.33%
+    display: flex
+    align-items: center
+    justify-content: center
+    position: relative
+  &-shadow
+    z-index: 1
+    &:before
+      content: ''
+      position: absolute
+      left: 0
+      top: 0
+      background: rgba(#000000, 0.2)
+      width: 100%
+      height: 100%
+  &-left
+    background: url("../img/15818243_l.jpg") no-repeat left top / cover
+  &-right
+    background: url("../img/winery.jpg") no-repeat left top / cover
+  &-center
+    display: flex
+    align-items: center
+    justify-content: center
+    &-logo
+      max-width: 25.4vw
+      width: 100%
+      max-height: 25.4vw
+      height: 100%
+  &-btn
+    z-index: 2
+    color: #ffffff
+    font-family: "opensanshebrew-light", sans-serif
+    font-size: 44px
+    font-weight: 300
+    width: 238px
+    height: 123px
+    border: 1px solid #ffffff
+    background: none
+    display: flex
+    align-items: center
+    justify-content: center
+    text-align: center
+    white-space: pre-line
+    line-height: 47px
+    box-shadow: inset 0 0 120px #d2c39b2e
+
+.visitor
+  &-first
+    display: flex
+    align-items: center
+    height: 830px
+    &-img
+      width: 60%
+      height: 100%
+      object-fit: cover
+    &-content
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      width: 40%
+      height: 100%
+      overflow-y: auto
+      padding: 0 10px
+    &-text
+      max-width: 580px
+      width: 100%
+      text-shadow: 0 0 0 rgba(6, 6, 6, 0.73)
+      color: #424244
+      font-family: "opensanshebrew-light", sans-serif
+      font-size: 23px
+      font-weight: 300
+      line-height: 33.66px
+      margin-bottom: 30px
+  &-second
+    width: 100%
+    background: #424244
+    padding: 43px 0 37px
+    &-img
+      width: 190px
+      height: 211px
+    &-border
+      border-top: 1px solid #9bb72b
+      border-bottom: 1px solid #9bb72b
+    &-offer
+      display: flex
+      justify-content: space-between
+      max-width: 1705px
+      margin: 0 auto
+      padding: 0 10px
+      align-items: center
+    &-list
+      text-shadow: 0 0 0 rgba(6, 6, 6, 0.73)
+      color: #9bb72b
+      font-family: "opensanshebrew-bold", sans-serif
+      font-size: 35px
+      font-weight: 700
+      line-height: 0
+      text-align: right
+    &-link
+      text-shadow: 0 0 0 rgba(6, 6, 6, 0.73)
+      color: #ffffff
+      font-family: "opensanshebrew-light", sans-serif
+      font-size: 35px
+      font-weight: 300
+      padding: 0 5px
+      white-space: nowrap
+      &.active, &:hover
+        color: #9bb72b
+  &-third
+    background: url("../img/nature.jpg") no-repeat center center/ cover
+    height: 630px
+    display: flex
+    align-items: center
+    justify-content: center
+    &-title
+      text-shadow: 0 0 0 rgba(6, 6, 6, 0.73)
+      color: #ffffff
+      font-family: "opensanshebrew-light", sans-serif
+      font-size: 105px
+      font-weight: 300
+      text-align: center
+  &-fourth
+    padding: 100px 0 45px
+    &-flex
+      display: flex
+      position: relative
+      margin-bottom: 35px
+    &-title
+      background: #ffffff
+      font-family: "opensanshebrew-bold", sans-serif
+      font-size: 36px
+      font-weight: 700
+      padding: 0 30px
+      text-align: center
+      display: block
+      margin: 0 auto
+      &:before
+        content: ''
+        position: absolute
+        left: 0
+        top: 50%
+        transform: translateY(-50%)
+        background: #9bb82c
+        height: 7px
+        width: 100%
+        z-index: -1
+    &-text
+      text-align: center
+      font-size: 25px
+      &:last-child
+        margin-bottom: 95px
+    &-img
+      width: 50%
+      height: 33.4vw
+      margin-top: 95px
+      object-fit: cover
+  &-fifth
+    &-title
+      color: #9bb82c
+      font-family: "opensanshebrew-light", sans-serif
+      font-size: 49px
+      font-weight: 300
+      line-height: 1
+      text-align: center
+      padding: 0 0 85px
+    &-img
+      width: 100%
+      max-height: 320px
+      object-fit: cover
+.market
+  &-first
+    display: flex
+    &-block
+      width: 25%
+      height: 600px
+      position: relative
+      display: flex
+      flex-direction: column
+      justify-content: flex-end
+      &:nth-child(2)
+        width: 55%
+      &:last-child
+        width: 20%
+        position: initial
+    &-winery
+      display: block
+      margin: 0 auto
+      max-height: 480px
+      height: 100%
+      position: absolute
+      right: 80px
+      bottom: 15px
+    &-img
+      width: 100%
+      height: 100%
+      object-fit: cover
+    &-flex
+      display: flex
+      justify-content: space-between
+      margin-left: 8vw
+    &-item
+      color: #000000
+      font-family: "opensanshebrew-regular", sans-serif
+      font-size: 37px
+      font-weight: 400
+      text-transform: uppercase
+      position: relative
+      line-height: 1.5
+      &:last-child
+        font-size: 39px
+        text-align: right
+        padding-right: 65px
+    &-span
+      white-space: nowrap
+      color: #9bb82c
+      font-family: "opensanshebrew-light", sans-serif
+      font-size: 30px
+      font-weight: 300
+      line-height: 31.17px
+      &:before
+        content: ''
+        position: absolute
+        right: 0
+        top: 50%
+        width: 100%
+        height: 7px
+        background: #9bb82c
+    &-text
+      color: #000000
+      font-family: "opensanshebrew-regular", sans-serif
+      font-size: 19px
+      font-weight: 400
+      line-height: 22.64px
+    &-title
+      color: #9bb82c
+      font-family: "opensanshebrew-regular", sans-serif
+      font-size: 19px
+      font-weight: 400
+      line-height: 1
+      text-align: right
+    &-content
+      padding: 45px 60px 32px 10px
+    &-price
+      display: flex
+      justify-content: flex-end
+      align-items: flex-end
+      padding: 0 60px 35px 10px
+  &-price
+    color: #000000
+    font-family: "opensanshebrew-regular", sans-serif
+    font-size: 47px
+    font-weight: 400
+    margin-right: 35px
+    line-height: 40px
+  &-description
+    padding: 0 60px 0 10px
+    &-content
+      margin-top: 15px
+      margin-bottom: 20px
+    &-text
+      color: #000000
+      font-family: "opensanshebrew-regular", sans-serif
+      font-size: 15px
+      font-weight: 400
+      line-height: 1
+  &-second
+    background: #000000
+    width: 100%
+    padding: 25px 0 20px
+    &-title
+      color: #ffffff
+      font-family: "opensanshebrew-light", sans-serif
+      font-size: 30px
+      font-weight: 300
+      line-height: 1
+      text-align: center
+      margin-bottom: 10px
+    &-flex
+      display: flex
+      color: #ffffff
+      font-family: "opensanshebrew-light", sans-serif
+      font-size: 25px
+      font-weight: 300
+      align-items: center
+      justify-content: start
+      flex-wrap: wrap
+      line-height: 36px
+
+    &-link
+      color: #ffffff
+      text-decoration: none
+      margin: 0 10px
+      white-space: nowrap
+    &-btn
+      color: #ffffff
+      font-family: "opensanshebrew-bold", sans-serif
+      font-size: 40px
+      font-weight: 700
+      line-height: 1
+      border-radius: 10px
+      background: #9bb82c
+      padding: 3px 50px 6px
+    &-form
+      margin: 20px 0 12px
+      .market-second-flex
+        justify-content: space-between
+        flex-wrap: nowrap
+    &-input
+      max-width: 360px
+      width: 100%
+      height: 49px
+      line-height: 48px
+      border-radius: 10px
+      background-color: #ffffff
+      padding: 0 15px
+      margin-left: 10px
+    &-item
+      color: #ffffff
+      font-family: "opensanshebrew-light", sans-serif
+      font-size: 18px
+      font-weight: 300
+      line-height: 1
+      padding-right: 35px
+    &-label
+      position: relative
+      display: flex
+      justify-content: flex-end
+      margin: 15px 0
+    &-checkbox:after
+      content: ''
+      position: absolute
+      right: 0px
+      top: 0px
+      width: 20px
+      height: 19px
+      background: #ffffff
+    &-text
+      color: #ffffff
+      font-family: "opensanshebrew-light", sans-serif
+      text-align: center
+      font-size: 34px
+      font-weight: 300
+      line-height: 1
+  &-third
+    padding: 30px 0 115px
+    &-flex
+      display: flex
+      flex-wrap: wrap
+      justify-content: center
+    &-title
+      text-align: center
+      color: #000000
+      font-size: 40px
+      line-height: 1
+      margin-bottom: 40px
+    &-product
+      width: 25%
+      padding: 20px
+    &-img
+      height: 21.9vw
+      width: auto
+      display: block
+      margin: 0 auto
+    &-price
+      text-align: center
+      color: #000000
+      font-family: "opensanshebrew-regular", sans-serif
+      font-size: 25px
+      font-weight: 400
+      margin-top: 35px
+.blog
+  &-first
+    background: url("../img/blog.jpg") no-repeat center / cover
+    width: 100%
+    height: 555px
+    position: relative
+    padding: 0 10px
+    &-flex
+      display: flex
+      justify-content: center
+      align-items: center
+    &-text
+      font-size: 25px
+      text-align: center
+      margin-top: 40px
+  &-overlay
+    background: rgba(#000000, 0.7)
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    display: flex
+    flex-direction: column
+    justify-content: center
+    height: 100%
+  &-second
+    padding: 115px 0 60px
+    &-flex
+      display: flex
+      flex-wrap: wrap
+      justify-content: start
+    &-item
+      position: relative
+      width: calc(33.33% - 1.6vw)
+      height: 26vw
+      margin: 1.55vw 2.3vw 1.55vw 0
+      &:nth-child(3n)
+        margin-right: 0
+      &:hover
+        .blog-second-hover
+          opacity: 1
+          pointer-events: auto
+          z-index: 2
+    &-hover
+      opacity: 0
+      pointer-events: none
+      transition: all 0.3s ease
+      position: absolute
+      left: 0
+      top: 0
+      width: 100%
+      height: 100%
+      background: rgba(#000000, 0.72)
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      text-align: center
+      cursor: pointer
+      padding: 10px
+      &.active
+        opacity: 1
+        pointer-events: auto
+    &-date
+      color: #ffffff
+      font-family: "opensanshebrew-light", sans-serif
+      font-size: 1vw
+      font-weight: 300
+      letter-spacing: 2.28px
+      margin-bottom: 1.81vw
+    &-title
+      color: #ffffff
+      font-size: 1vw
+      letter-spacing: 2.28px
+      display: block
+      line-height: 1
+    &-text
+      text-align: center
+      color: #ffffff
+      font-family: "opensanshebrew-regular", sans-serif
+      font-size: 1vw
+      font-weight: 400
+      letter-spacing: 2.28px
+    &-uper
+      text-transform: uppercase
+      display: block
+      margin: 25px 0 2.35vw
+    &-btn
+      color: #9ab72c
+      font-family: "opensanshebrew-light", sans-serif
+      font-size: 1vw
+      font-weight: 300
+      letter-spacing: 2.28px
+      padding: 8px 2.6vw 9px
+      border-radius: 20px
+      border: 2px solid #9ab72c
+      margin-top: 2.6vw
+  &-pagination
+    display: flex
+    justify-content: center
+    &-link
+      color: #9bb82c
+      font-family: "opensanshebrew-regular", sans-serif
+      font-size: 25px
+      font-weight: 400
+      letter-spacing: 0
+      width: 32px
+      height: 32px
+      border: 1px solid #9ab72c
+      border-radius: 50%
+      display: flex
+      align-items: center
+      justify-content: center
+      margin: 65px 2.5px 0
+      &.active, &:hover
+        background: #424244
+        border: 1px solid #424244
+.about
+  &-first
+    background: url("../img/15818243_l.jpg") no-repeat center / cover
+    position: relative
+    &-block
+      background: rgba(#000000, 0.7)
+      padding: 70px 0 135px
+      text-align: right
+      margin-bottom: 35px
+    &-title
+      font-size: 25px
+      line-height: 1
+      margin-top: 40px
+    &-img
+      display: block
+      margin: 0 auto
+      max-width: 1100px
+      max-height: 500px
+      width: 100%
+      height: 100%
+      object-fit: cover
+    &-content
+      max-width: 650px
+      width: 100%
+      margin: 0 auto
+      display: block
+    &-text
+      text-shadow: 0 0 0 rgba(6, 6, 6, 0.73)
+      color: #ffffff
+      font-family: "opensanshebrew-regular", sans-serif
+      font-size: 23px
+      font-weight: 400
+      line-height: 33.66px
+      margin-top: 30px
+  .visitor-fifth-title
+    padding: 0 0 40px
+.contact
+  .about-first-block
+    padding: 80px 0 120px
+  &-form
+    max-width: 495px
+    width: 100%
+    margin: 0 auto
+    &-title
+      color: #9ab72c
+      font-family: "opensanshebrew-bold", sans-serif
+      font-size: 25px
+      font-weight: 700
+      line-height: 1
+      text-align: center
+  &-text
+    color: #9bb82c
+    font-family: "opensanshebrew-bold", sans-serif
+    font-size: 23px
+    font-weight: 300
+    letter-spacing: 0.31px
+    line-height: 1
+    margin: 35px 0 50px
+    text-align: center
+  &-input
+    width: 100%
+    height: 46px
+    line-height: 46px
+    background-color: #ffffff
+    margin-bottom: 25px
+    padding: 10px 20px
+    &::-webkit-input-placeholder
+      line-height: 46px
+
+    &:-moz-placeholder
+      line-height: 46px
+
+    &::-moz-placeholder
+      line-height: 46px
+
+    &:-ms-input-placeholder
+      line-height: 46px
+  &-comments
+    width: 100%
+    height: 266px
+    overflow-y: auto
+    background-color: #ffffff
+    resize: none
+    text-align: right
+    padding: 20px
+    line-height: 1
+  &-label
+    position: relative
+    display: block
+    text-align: center
+    margin: 25px 0 35px
+    cursor: pointer
+  &-item
+    color: #ffffff
+    font-family: "opensanshebrew-light", sans-serif
+    font-size: 23px
+    font-weight: 300
+    letter-spacing: 0.33px
+    line-height: 1
+  &-checkbox:after
+    content: ''
+    position: absolute
+    right: 30px
+    top: 2px
+    width: 20px
+    height: 19px
+    background: #ffffff
+    display: flex
+    align-items: center
+  &-btn
+    border-radius: 27px
+    background: #9bb82c
+    color: #ffffff
+    font-family: "opensanshebrew-extrabold", sans-serif
+    font-size: 33px
+    font-weight: 400
+    line-height: 1
+    padding: 9px 88px 11px
+    letter-spacing: 0.33px
+    display: block
+    margin: 0 auto 65px
+  &-title
+    color: #ffffff
+    font-family: "opensanshebrew-light", sans-serif
+    font-size: 49px
+    font-weight: 300
+    line-height: 1
+    text-align: center
+  .visitor-fifth-title
+    padding: 0 0 40px
+.footer
+  &-top
+    background-color: #424244
+    padding: 85px 0 70px
+  &-container
+    display: flex
+    justify-content: space-between
+    max-width: 1192px
+    padding: 0 10px
+    margin: 0 auto
+    text-align: right
+    flex-wrap: wrap
+  &-down
+    display: flex
+    flex-wrap: wrap
+    text-align: center
+    justify-content: center
+    border-top: 3px solid #ffffff
+    background-color: #9bb82c
+    color: #ffffff
+    font-family: "opensanshebrew-bold", sans-serif
+    font-size: 15px
+    font-weight: 700
+    line-height: 1
+    padding: 27px 10px
+    &-link
+      color: #ffffff
+      text-decoration: none
+      margin: 0 5px 0 10px
+  &-btn
+    color: #ffffff
+    font-family: "opensanshebrew-bold", sans-serif
+    font-size: 27px
+    font-weight: 700
+    padding: 6px 17px 7px
+    line-height: 1
+    background: #9bb82c
+    width: 90px
+    border: none
+    margin-right: 20px
+  &-list
+    color: #ffffff
+    font-family: "opensanshebrew-bold", sans-serif
+    font-size: 28px
+    font-weight: 700
+    line-height: 15px
+    margin-bottom: 25px
+  &-input
+    background-color: #ffffff
+    color: #424244
+    font-family: "opensanshebrew-light", sans-serif
+    font-size: 20px
+    font-weight: 300
+    line-height: 36px
+    text-align: right
+    padding: 0 10px 0
+    width: 100%
+    outline: none
+  &-form
+    display: flex
+    justify-content: flex-end
+  &-link
+    color: #ffffff
+    font-family: "opensanshebrew-bold", sans-serif
+    font-size: 16px
+    font-weight: 700
+    line-height: 1
+    display: inline-block
+  &-menu
+    &:last-child
+      margin-left: 3vw
+
+.crumb
+  font-size: 25px
+  font-family: "opensanshebrew-light", sans-serif
+  font-weight: 300
+  color: #ffffff
+  position: relative
+  padding: 0 20px 0 10px
+  &.active
+    font-family: "opensanshebrew-bold", sans-serif
+    font-weight: 700
+  &:before
+    content: '/'
+    position: absolute
+    right: 0
+    top: 0
+  &:last-child:before
+    content: none
+.scroll ul
+  overflow-y: hidden
+  display: flex
+.scroll
+  display: flex
+  overflow-x: auto
+  padding-right: 30px
+  max-width: 430px
+.checkbox
+  position: absolute
+  opacity: 0
+  cursor: pointer
+  height: 0
+  width: 0
+  &:checked ~ .market-second-checkbox:after
+    background: #ffffff url("../img/check.svg") no-repeat center
+    background-size: 20px 19px
+  &:checked ~ .contact-checkbox:after
+    background: #ffffff url("../img/check.svg") no-repeat center
+    background-size: 20px 19px
+.underline
+  position: relative
+  &:before
+    content: ''
+    position: absolute
+    left: 0
+    bottom: -2px
+    width: 100%
+    height: 1px
+    background: #ffffff
+.green
+  color: #9bb82c
+.bold
+  font-family: "opensanshebrew-bold", sans-serif
+  font-weight: 700
+.line-clamp
+  display: block
+  display: -webkit-box
+  -webkit-box-orient: vertical
+  position: relative
+  line-height: 1.3
+  overflow: hidden
+  text-overflow: ellipsis
+
+.line-clamp:after
+  content: '...'
+  text-align: left
+  bottom: 0
+  left: 0
+  width: 25%
+  display: block
+  position: absolute
+  height: calc(1em * 1.3)
+  color: #ffffff
+
+@supports (-webkit-line-clamp: 1)
+  .line-clamp:after
+    display: none !important
+.line-clamp-4
+  -webkit-line-clamp: 4
+  line-
+  height: calc(1em * 1.3 * 4)
+
+@import "media"
+
